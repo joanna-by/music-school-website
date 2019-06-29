@@ -172,11 +172,21 @@
 
 } */
 /* contact section */
-
-.table {
-  margin: 6rem 2rem 2rem
+.contact-header {
+  padding: 4rem 0;
+}
+.card {
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-th {
-  padding: 1rem
+.card-header {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.address-icon {
+  float: left;
+  font-size: 2rem
 }
