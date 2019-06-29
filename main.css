@@ -146,7 +146,7 @@
 
 /* about section */
 
-#about {
+#about, #contact {
   background: rgb(118, 194, 197);
   height: 100vh;
   padding: 5rem
@@ -171,3 +171,12 @@
   border-radius: 50%;
 
 } */
+/* contact section */
+
+.table {
+  margin: 6rem 2rem 2rem
+}
+
+th {
+  padding: 1rem
+}
