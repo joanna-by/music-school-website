@@ -130,5 +130,14 @@
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* about section */
+
+#about {
+  background: rgb(118, 194, 197);
+  height: 90vh;
+  padding: 5rem
+}
+
 /* team section */
+
 
