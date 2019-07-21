@@ -144,9 +144,14 @@
   Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.fa-stack:hover {
+}
 
-.fa-stack:hover, .team-img:hover {
-  opacity: .7;
+.team-img {
+  opacity: .9
+}
+.team-img:hover {
+  opacity: 1;
   transform: scale(1.05,1.07);
   transition-timing-function: ease-out;
   transition-duration: 250ms;
@@ -158,6 +163,7 @@
   -moz-transition-duration: 250ms;
   position: relative;
   z-index: 99;
+  border-radius: 50%
 }
 
 /* about section */
