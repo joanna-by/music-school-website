@@ -22,7 +22,7 @@
 }
 
 .nav-link:hover {
-  color: rgb(46, 45, 45) !important;
+  color: rgb(80, 79, 79) !important;
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.849), 1px 1px 0px rgba(0,0,0,0.15);
 }
 
@@ -124,7 +124,6 @@
 
 .section-heading {
   color: rgb(80, 79, 79);
-
   font-size: 4rem;
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -262,4 +261,21 @@
 
 .page-footer {
   background-color:rgb(240, 236, 236);
+}
+
+.scrollup {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  display: none;
+  z-index: 99999999;
+  background-image: url('http://strefakodera.pl/wp-content/uploads/2015/04/1429391284_519559-055_CircledArrowUp-64.png');
+  right: 30px;
+  bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.scrollTopButton.show {
+  visibility: visible;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
