@@ -3,7 +3,7 @@ const strWindowFeatures = '_blank, height=510, width=510, resizable=no, modal=ye
 openButton.addEventListener('click', openMidiWindow);
 
 const strWindowFeaturesForSmallerResolution = '_blank, height=510, width=510, resizable=no, modal=yes, alwaysRaised=yes, scrollbars=no, menubar=no, location=no, status=no';
-email.addEventListener('click', openMidiWindow);
+openButton.addEventListener('click', openMidiWindow);
 
 function openMidiWindow() {
     
