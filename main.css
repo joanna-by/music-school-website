@@ -303,6 +303,13 @@
   color: rgb(118, 194, 197) !important
 }
 
+/* contact form */
+#contact-form {
+  padding: 5rem;
+  background-color: rgb(240, 236, 236);
+}
+
+
 .page-footer {
   background-image: linear-gradient(to right, black, grey, cadetblue);
 }
