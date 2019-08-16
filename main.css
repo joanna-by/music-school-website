@@ -279,8 +279,20 @@
   padding: 3rem 0
 }
 
+.card-text.address{
+  font-weight: bold
+}
+
+.map-img-bottom {
+  color: #fff;
+  height: 24rem;
+  background: url("https://goo.gl/maps/LbaqdqHyQ623Bf8u5") center no-repeat;
+  background-size: cover;
+  border: 2px double black
+}
+
 .social-media-icons {
-  padding: 3rem 0 0;
+  padding: 1rem 0;
 }
 
 .social-link {
@@ -288,7 +300,7 @@
 }
 
 .social-link:hover {
-  color: white !important
+  color: rgb(118, 194, 197) !important
 }
 
 .page-footer {
