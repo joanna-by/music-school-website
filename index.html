@@ -159,11 +159,37 @@
         </div>
         <div class="row text-center">
           <div class="col">
-            <span class="fa-stack fa-4x">
+            
+            <span class="fa-stack fa-4x" data-toggle="modal" data-target="#firstModalScrollable">
               <i class="fa fa-circle fa-stack-2x text-info"></i>
               <fa-stack-1x class="fas fa-file-audio fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Produkcja muzyczna</h4>
+          
+            <div class="modal fade" id="firstModalScrollable" tabindex="-1" role="dialog" aria-labelledby="firstModalScrollableTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="firstModalScrollableTitle">Produkcja muzyczna</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="modal-text">W trakcie zajęć z produkcji poznacie arkana tworzenia muzyki począwszy od pierwszego dźwięku, na finałowym masteringu kończąc. Młodzi adepci sztuki muzycznej będą nauczani obsługi wiodącego na rynku oprogramowania Ableton. Poprzez łączenie ze sobą ścieżek dźwiękowych oraz sampli uczniowie będą w stanie zmontować w pełni gotowy utwór muzyczny. Dopełnieniem zajęć będzie połączenie Abletona z urządzeniami produkcyjnymi takimi jak kontrolery MIDI, klawiatury, mikrofony, słuchawki. Zajęcia z obsługi Abletona dadzą podwaliny do montowania takich gatunków jak TRAP, House, RnB i wiele innych. Zapraszamy zarówno wykształconych muzyków, jak i amatorów.</p>
+                    <p>Zajęcia 60 min raz w tygodniu.</p>
+                    <p>Cena 179 zł/mies.</p>
+                    <p>Prowadzący: Artur</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                    <button type="button" class="btn btn-info link">
+                      <a href="#contact-form" class="button-link">Zapisz się</a>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
             
           </div>
        
@@ -255,7 +281,7 @@
                 <div class="col-lg-4 text-center">
                     <img class="img-fluid team-img" src="img/team/kamil.jpg" alt="">
                     <h3 class="team-name">KAMIL</h3>
-                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Więcej</button>
+                    <button type="button" class="btn btn-info btn-sm btn-team" data-toggle="modal" data-target="#myModal">Więcej</button>
                     <div id="myModal" class="modal fade" role="dialog">
                         <div class="modal-dialog">
                           <div class="modal-content">
