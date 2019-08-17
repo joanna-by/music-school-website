@@ -438,52 +438,68 @@
         </div>
       </div>
 
-      <form>
-      <div class="row">
+      <form class="needs-validation" novalidate>
+      <div class="form-row">
           <div class="col-lg-6 text-left">
             <div class="card">
               <div class="card-body">
             <h4 class="form-classes">Rodzaj zajęć:</h4>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Produkcja muzyczna</label>
-              </div>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Mastering</label>
-              </div>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Zajęcia DJ</label>
-              </div>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Wokal</label>
-              </div>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Grupa wokalna</label>
-              </div>
-              <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Teoria muzyki</label>
-              </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation2">Produkcja muzyczna</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation3">Mastering</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation4" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation4">Zajęcia DJ</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation5" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation5">Wokal</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation6" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation6">Grupa wokalna</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation7" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation7">Teoria muzyki</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
           </div>
         </div>
         </div>
       
           <div class="col-lg-6 text-center form-labels">
               <div class="form-group">
-                <label for="exampleInputPassword1">Imię i nazwisko:</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Jak się nazywasz?">
+                <label for="validationCustom01">Imię i nazwisko:</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Jak się nazywasz?" required>
+                <div class="invalid-feedback">
+                  Wpisz imię i nazwisko.
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="validationCustom02">Telefon:</label>
+                <input type="text" maxlength="13" class="form-control" id="validationCustom02" placeholder="Wpisz swój numer telefonu" required>
+                <div class="invalid-feedback">
+                  Wpisz numer telefonu.
+                </div>
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Telefon:</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Chcesz podać numer telefonu?">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Adres email:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Twój adres email">
+                <label for="validationCustom03">Adres email:</label>
+                <input type="email" class="form-control" id="validationCustom03" aria-describedby="emailHelp" placeholder="Twój adres email" required>
+                <div class="invalid-feedback">
+                  Wpisz adres e-mail.
+                </div>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Inne:</label>
@@ -491,10 +507,13 @@
             </div>
             
             <div class="form-check-statute">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
               <label class="form-check-label-statute text-left" for="defaultCheck1">
                 Zapoznałem/am się i akceptuję regulamin szkoły MoozoMontownia
               </label>
+              <div class="invalid-feedback">
+                Zaakceptuj regulamin
+              </div>
             </div>
           </div>
         </div>
@@ -532,6 +551,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="/js/validation.js"></script>
     <script src="/js/scroll.js"></script>
     <script src="/js/midiopen.js"></script>
 
