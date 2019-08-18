@@ -167,7 +167,7 @@
   opacity: 1;
 }
 
-.modal-body {
+.modal-body.offer {
   /* background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(210,235,236,1) 29%, rgba(118,194,197,1) 89%, rgba(118,194,197,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(29%, rgba(210,235,236,1)), color-stop(89%, rgba(118,194,197,1)), color-stop(100%, rgba(118,194,197,1)));
