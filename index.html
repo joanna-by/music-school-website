@@ -227,13 +227,73 @@
           </div>
 
           <div class="col">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x" data-toggle="modal" data-target="#thirdModalScrollable">
               <i class="fas fa-circle fa-stack-2x text-info"></i>
               <i class="fas fa-headphones fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Zajęcia DJ</h4>
+            <h4 class="service-heading">Beatbox</h4>
+
+            <div class="modal fade" id="thirdModalScrollable" tabindex="-1" role="dialog" aria-labelledby="firstModalScrollableTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="firstModalScrollableTitle">Beatbox</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="modal-text">Muzyka z wykorzystaniem aparatu mowy to tylko śpiew? Nic bardziej mylnego. Beatbox jest formą rytmicznego dźwiękonaśladownictwa. Forma ta wyłoniła się z popularnego najbardziej w latach dziewięćdziesiątych scatu. Z czasem naśladownictwo przestało opierać się tylko na melodycznych sylabach i przeobraziło się w dźwięki perkusji, a dalej innych instrumentów. Ćwiczyć beatbox możecie wszędzie, kiedy macie na to przyjazne warunki. Zapraszamy do warsztatów beatboxowych, dzięki którym własną twórczością będziecie mogli cieszyć  się zarówno na koncertach, jak i w każdym wybranym przez Was miejscu.</p>
+                    <p>Zajęcia 45 min raz w tygodniu - Cena 109 zł/mies.</p>
+                    <p>Warsztat 4 h	- Cena 49 zł </p>
+                    <p>Prowadzący: Elf</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                    <button type="button" class="btn btn-info link">
+                      <a href="#contact-form" class="button-link">Zapisz się</a>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
+
+          <div class="col">
+            
+            <span class="fa-stack fa-4x" data-toggle="modal" data-target="#firstModalScrollable">
+              <i class="fa fa-circle fa-stack-2x text-info"></i>
+              <fa-stack-1x class="fas fa-file-audio fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Produkcja muzyczna</h4>
+          
+            <div class="modal fade" id="firstModalScrollable" tabindex="-1" role="dialog" aria-labelledby="firstModalScrollableTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="firstModalScrollableTitle">Produkcja muzyczna</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="modal-text">W trakcie zajęć z produkcji poznacie arkana tworzenia muzyki począwszy od pierwszego dźwięku, na finałowym masteringu kończąc. Młodzi adepci sztuki muzycznej będą nauczani obsługi wiodącego na rynku oprogramowania Ableton. Poprzez łączenie ze sobą ścieżek dźwiękowych oraz sampli uczniowie będą w stanie zmontować w pełni gotowy utwór muzyczny. Dopełnieniem zajęć będzie połączenie Abletona z urządzeniami produkcyjnymi takimi jak kontrolery MIDI, klawiatury, mikrofony, słuchawki. Zajęcia z obsługi Abletona dadzą podwaliny do montowania takich gatunków jak TRAP, House, RnB i wiele innych. Zapraszamy zarówno wykształconych muzyków, jak i amatorów.</p>
+                    <p>Zajęcia 60 min raz w tygodniu.</p>
+                    <p>Cena 179 zł/mies.</p>
+                    <p>Prowadzący: Artur</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                    <button type="button" class="btn btn-info link">
+                      <a href="#contact-form" class="button-link">Zapisz się</a>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+      </div>
 
         <div class="row text-center">
          
@@ -258,6 +318,13 @@
             </span>
             <h4 class="service-heading">Teoria muzyki</h4>
           </div>
+          <div class="col">
+              <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-info"></i>
+                <i class="fas fa-microphone-alt fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 class="service-heading">Wokal</h4>
+            </div>
 
         </div>
       </div>
@@ -503,6 +570,11 @@
             <div class="custom-control custom-radio mb-3">
               <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
               <label class="custom-control-label" for="customControlValidation3">Mastering</label>
+              <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input type="radio" class="custom-control-input" id="customControlValidation5" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation5">Beatbox</label>
               <div class="invalid-feedback">Wybierz zajęcia, które cię interesują</div>
             </div>
             <div class="custom-control custom-radio mb-3">
