@@ -340,13 +340,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-weight: bold
 }
 
-.map-img-bottom {
+/* .map-img-bottom {
   color: #fff;
   height: 24rem;
   background: url("https://goo.gl/maps/LbaqdqHyQ623Bf8u5") center no-repeat;
   background-size: cover;
-  border: 2px double black
-}
+} */
 
 .social-media-icons {
   padding: 1rem 0;
