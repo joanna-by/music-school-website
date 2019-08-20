@@ -430,16 +430,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   bottom:0px; left:0; right:0; background-color: rgba(0,0,0,0.6); z-index: 100000; box-shadow: 0 0 5px rgba(0,0,0,0.4); 
   display: block;
   width: 100%;
+  font-size: 1.1rem
 }
 
 #accept-cookies-checkbox{ 
-  background-color:  rgb(118, 194, 197);
+  background-color: cadetblue;
   color: #141313;
-  border: solid 3px rgb(118, 194, 197);
+  border: solid 3px cadetblue;
   transition: all 0.5s; 
   text-align: center;
-  padding: 2px 6px; border-radius: 4px;
-  display: inline-block; margin-left: 10px;
+  padding: 2px 6px; 
+  border-radius: 4px;
+  display: inline-block; 
+  /* margin-left: 10px; */
   text-decoration: none; 
   cursor: pointer
 }
@@ -450,6 +453,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   border-color: rgb(118, 194, 197);
 }
 
-.logo-cookies__logo {
+.cookies-pic {
   max-width: 150px;
+  padding: 1.5rem
 }
