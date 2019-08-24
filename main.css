@@ -31,6 +31,12 @@ html, body {
   text-shadow: 1px 1px 0px rgba(126, 118, 118, 0.849), 1px 1px 0px rgba(0,0,0,0.15);
 }
 
+@media (max-width: 770px) {
+  .nav-link {
+    font-size: 1rem
+  }
+}
+
 /* jumbotron */
 
 .carousel-item__1 {
@@ -242,6 +248,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: .5rem
 }
 
+@media (max-width: 770px) {
+  .card-img-bottom {
+    width: 100%
+  }
+}
+
 @media (max-width: 420px) {
   #about {
     padding: 2rem 0
@@ -389,6 +401,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   iframe {
     height: 10rem;
     width: 100%
+  }
+}
+
+@media (max-width: 770px) {
+  iframe {
+    height: 10rem;
+    width: 100%
+  }
+
+  .card-text.title  {
+    text-align: center
   }
 }
 
