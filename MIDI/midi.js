@@ -267,3 +267,22 @@ function logger(container, label, data) {
 messages = label + " [channel: " + (data[0] & 0xf) + ", cmd: " + (data[0] >> 8) + ", type: " + (data[0] & 0xf0) + " , note: " + data[1] + " , velocity: " + data[2] + "]";
 container.textContent = messages;
 }
+
+// function playSound(e) {
+//     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+//     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+//     if(!audio) return;
+//     audio.currentTime = 0;
+//     audio.play();
+//     key.classList.add('playing');
+// }
+
+// function removeTransition(e) {
+//     if(e.propertyName !== 'transform') return;
+//     this.classList.remove('playing'); 
+// }
+
+// const keys = document.querySelectorAll('.key');
+// keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+// window.addEventListener('keydown', playSound); 
