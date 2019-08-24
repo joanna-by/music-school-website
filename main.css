@@ -119,6 +119,10 @@ html, body {
   .navbar-text {
     padding: 3.5%;
   }
+
+  .btn.more {
+    margin: 2rem
+  }
 }
 
 /* offer section */
@@ -199,6 +203,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .btn-info.link {
   background-color: cadetblue
 }
+
+@media (max-width: 420px) {
+  #services {
+    padding: 1rem 0
+  }
+}
+
 /* about section */
 
 #about {
@@ -233,11 +244,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 @media (max-width: 420px) {
   #about {
-    padding: 0
+    padding: 2rem 0
   }
 
   .card-img-bottom {
     height: 10rem
+  }
+
+  .card {
+    padding: 0;
+    margin: 0
+  }
+
+  .card-text {
+    padding: 0
   }
 }
 
@@ -289,8 +309,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin: 1rem
 }
 
+@media (max-width: 420px) {
+  #team {
+    padding: 1rem 0
+  }
+  .team-img {
+     margin: 1rem 0
+  }
+  .btn-info.btn-team {
+    margin-bottom: 0
+  }
+}
+
 
 /* contact section */
+
+#contact {
+  background: rgb(118, 194, 197);
+  padding: 3rem 0
+}
 
 .contact-header {
   padding: 2rem 0 3rem;
@@ -318,21 +355,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#contact {
-  background: rgb(118, 194, 197);
-  padding: 3rem 0
-}
-
-.card-text.address{
+.card-text.address {
   font-weight: bold
 }
-
-/* .map-img-bottom {
-  color: #fff;
-  height: 24rem;
-  background: url("https://goo.gl/maps/LbaqdqHyQ623Bf8u5") center no-repeat;
-  background-size: cover;
-} */
 
 .social-media-icons {
   padding: 1rem 0;
@@ -344,6 +369,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .social-link:hover {
   color: rgb(118, 194, 197) !important
+}
+
+@media (max-width: 420px) {
+  #contact {
+    padding: 1rem 0
+  }
+
+  .card-title {
+    font-size: 3rem;
+    margin: 0;
+    padding: 1rem
+  }
+
+  .card-text.title  {
+    text-align: center
+  }
+
+  iframe {
+    height: 10rem;
+    width: 100%
+  }
 }
 
 /* contact form */
@@ -381,6 +427,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 1rem 0 0
 }
 
+@media (max-width: 420px) {
+  #contact-form {
+    padding: 1rem 0
+  }
+  
+}
 
 /* footer */
 
