@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 /* nav */
 
 .navbar {
@@ -224,7 +229,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding: .5rem
-  
+}
+
+@media (max-width: 420px) {
+  #about {
+    padding: 0
+  }
+
+  .card-img-bottom {
+    height: 10rem
+  }
 }
 
 /* team section */
