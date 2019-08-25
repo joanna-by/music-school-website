@@ -485,6 +485,10 @@ li.special-list-item {
   padding: 8px
 }
 
+li.special-list-item:hover {
+  background-color: rgb(253, 253, 1);
+}
+
 /* footer */
 
 .page-footer {
