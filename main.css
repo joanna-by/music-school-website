@@ -41,10 +41,10 @@ html, body {
 
 .carousel-item__1 {
   background-image: url(./img/music1.jpg);
-  font-size: 6.5rem;
+  font-size: 7rem;
   font-weight: 800;
   margin: auto;
-  padding: 8% 0 0 0;
+  padding: 5rem 0 0 0;
   text-align: center;
   color: cadetblue;
   text-shadow: 2px 3px 2px rgb(0, 0, 0);
@@ -55,7 +55,7 @@ html, body {
   font-size: 5rem;
   font-weight: 400;
   margin: auto;
-  padding: 11% 10% 0 10%;
+  padding: 10% 10% 0 10%;
   text-align: center;
   color: cadetblue;
   text-shadow: 4px 2px 2px rgb(0, 0, 0);
@@ -66,7 +66,7 @@ html, body {
   font-size: 5rem;
   font-weight: 400;
   margin: auto;
-  padding: 13% 0 0 0;
+  padding: 10rem;
   text-align: center;
   color: cadetblue;
   text-shadow: 4px 2px 2px rgb(0, 0, 0);
@@ -87,13 +87,13 @@ html, body {
 @media (max-width: 1700px) {
   .carousel-item__1 {
     font-size: 6.5rem;
-    padding: 20vh 10% 0 10%;
+    padding: 27vh 10% 0 10%;
   }
 
   .carousel-item__2,
   .carousel-item__3 {
     font-size: 4rem;
-    padding: 35vh 10% 0 10%;
+    padding: 28vh 10% 0 10%;
   }
 }
 
