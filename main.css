@@ -212,7 +212,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 @media (max-width: 420px) {
   #services {
-    padding: 1rem 0
+    padding: 2rem 0
   }
 }
 
@@ -224,7 +224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .card-title {
-  padding-bottom: 2rem
+  padding-bottom: 2rem;
 }
 
 .card-img-bottom {
