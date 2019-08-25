@@ -1,4 +1,5 @@
 <?php
+
     $name = $_POST['name'];
     $phone = $_POST['phone'];
     $email = $_POST['email'];
@@ -6,14 +7,15 @@
     $from = 'From: MoozoMontownia'; 
     $to = 'j.bykowska@gmail.com'; 
     $subject = 'Zapisy na zajecia';
+    $zajecia_value = $_POST['zajecia'];
 
-    $body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message";
+    $body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message $zajecia_value\n";
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
-            echo '<p>Your message has been sent!</p>';
+            echo '<p>Twoja widomość została wysłana!</p>';
         } else { 
-            echo '<p>Something went wrong, go back and try again!</p>'; 
+            echo '<p>Coś poszło nie tak, spróbuj jeszcze raz!</p>'; 
         }
     }
 ?>
