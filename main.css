@@ -254,13 +254,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background-color: cadetblue
 }
 
-.midi-ul {
+.midi-ul, .mastering-ul, .dj-ul, .vocal-ul, .theory-ul, .rap-ul {
   list-style: none;
   text-align: left
 }
 
 .midi-ul li:before {
   content: "🎵";
+  margin-right: 10px;
+}
+
+.mastering-ul li:before {
+  content: "💻";
+  margin-right: 10px;
+}
+
+.dj-ul li:before {
+  content: "🎛️";
+  margin-right: 10px;
+}
+
+.vocal-ul li:before {
+  content: "🎙️";
+  margin-right: 10px;
+}
+
+.theory-ul li:before {
+  content: "🎼";
+  margin-right: 10px;
+}
+
+.rap-ul li:before {
+  content: "🎧";
   margin-right: 10px;
 }
 
