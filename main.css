@@ -66,12 +66,6 @@ html, body {
   }
 }
 
-/* @media (min-width: 320px) {
-  .d-inline-block {
-    display: inline !important
-  }
-} */
-
 /* jumbotron */
 
 .carousel-item__1 {
@@ -109,7 +103,7 @@ html, body {
 .carousel-item__1,
 .carousel-item__2,
 .carousel-item__3 {
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Arbutus Slab', -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-attachment: fixed;
@@ -126,7 +120,7 @@ html, body {
 
   .carousel-item__2,
   .carousel-item__3 {
-    font-size: 4rem;
+    font-size: 3.6rem;
     padding: 23vh 10% 0 10%;
   }
 }
@@ -203,7 +197,7 @@ html, body {
 .service-heading {
   padding: 0.7rem;
   font-size: 1rem;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -321,7 +315,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .card-text, .classes-list {
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Aleo', -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -439,7 +433,7 @@ p.card-text {
 .team-name {
   padding: 0.5rem;
   font-size: 2rem;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Arbutus Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -470,7 +464,7 @@ p.card-text {
 }
 
 .team-text {
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-align: justify;
@@ -511,14 +505,14 @@ p.card-text {
   font-size: 1.8rem;
   color: rgb(80, 79, 79);
   padding: 1rem;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .list-group-item {
   font-size: 1.1rem;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -593,7 +587,7 @@ p.card-text {
 
 .form-check-statute {
   padding: 1rem;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: .8rem
@@ -632,7 +626,7 @@ p.card-text {
 #special {
   background: rgb(118, 194, 197);
   padding: 2rem 0;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -652,7 +646,7 @@ li.special-list-item {
 }
 
 .special-frames {
-  border: 4px solid yellow;
+  border: 2px dashed yellow;
   background-color: rgb(248, 248, 132)
 }
 
@@ -734,7 +728,6 @@ li.special-list-item {
   padding: 2px 6px; 
   border-radius: 4px;
   display: inline-block; 
-  /* margin-left: 10px; */
   text-decoration: none; 
   cursor: pointer
 }
