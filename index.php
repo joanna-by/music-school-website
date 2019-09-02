@@ -14,9 +14,9 @@
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
-            echo '<p>Twoja widomość została wysłana!</p>';
+            print '<p>Twoja widomość została wysłana!</p>';
         } else { 
-            echo '<p>Coś poszło nie tak, spróbuj jeszcze raz!</p>'; 
+            print '<p>Coś poszło nie tak, spróbuj jeszcze raz!</p>'; 
         }
     }
 ?>
