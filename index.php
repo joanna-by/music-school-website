@@ -3,13 +3,14 @@
     $name = $_POST['name'];
     $phone = $_POST['phone'];
     $email = $_POST['email'];
+    $age = $_POST['age'];
     $message = $_POST['message'];
     $from = 'From: MoozoMontownia'; 
-    $to = 'j.bykowska@gmail.com'; 
+    $to = 'kontakt@moozomontownia.pl'; 
     $subject = 'Zapisy na zajecia';
     $zajecia_value = $_POST['zajecia'];
 
-    $body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message $zajecia_value\n";
+    $body = "From: $name\n Phone: $phone\n E-Mail: $email\n Age: $age\n Message:\n $message $zajecia_value\n";
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
