@@ -524,7 +524,12 @@ p.card-text {
 }
 
 .card-text.address {
-  font-weight: bold
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+p.card-text {
+  margin: 1rem 0;
 }
 
 .social-media-icons {
