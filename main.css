@@ -611,6 +611,15 @@ p.card-text {
   padding-top: 0.7rem
 }
 
+#openStatus {
+  border: 1px dotted rgb(73, 69, 69);
+  cursor: pointer
+}
+
+#openStatus:hover {
+  background-color: rgba(73, 69, 69, 0.596)
+}
+
 @media (max-width: 420px) {
   #contact-form {
     padding: 1rem 0
