@@ -14,8 +14,8 @@
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
-            include "komunikat.html";
-	    header("Refresh:3; URL=index.html");
+            include "message.html";
+	    header("Refresh:2; URL=index.html");
         // header('Location: /index.html');
         } else { 
             print '<p>Coś poszło nie tak, spróbuj jeszcze raz!</p>'; 
