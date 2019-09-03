@@ -14,7 +14,7 @@
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
-            print '<p>Twoja widomość została wysłana!</p>';
+            print '<script type='text/javascript'>alert('$Twoja wiadomość została wysłana');</script>';
         } else { 
             print '<p>Coś poszło nie tak, spróbuj jeszcze raz!</p>'; 
         }
