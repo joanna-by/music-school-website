@@ -302,7 +302,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .card-img-bottom {
   color: #fff;
-  height: 43rem;
+  height: 38rem;
   background: url(img/about2.jpg) center no-repeat;
   background-size: cover;
   border: 2px double black;
@@ -329,7 +329,7 @@ p.card-text {
 }
 
 .first-li {
-  margin-left: 60%;
+  margin-left: 55%;
   margin-bottom: 0
 }
 
@@ -338,13 +338,17 @@ p.card-text {
   margin-right: 5px
 }
 
+.second-li {
+  margin-left: -10%;
+}
+
 .second-li:before{
   content: "🎶";
   margin-right: 5px
 }
 
 .third-li {
-  margin-left: 35%;
+  margin-left: 30%;
 }
 
 .third-li:before {
@@ -420,6 +424,29 @@ p.card-text {
 
   .fab {
     margin-left: .7rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .first-li {
+    margin-left: 40%;
+    margin-bottom: 0
+  }
+
+  .second-li {
+    margin-left: -20%;
+  }
+ 
+  .third-li {
+    margin-left: 20%;
+  }
+  
+  .fourth-li {
+    margin-left: 60%;
+  }
+  
+  .fifth-li {
+    margin-left: -10%;
   }
 }
 
