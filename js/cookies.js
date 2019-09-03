@@ -1,4 +1,4 @@
-Cookies.set('MoozoMontownia', 'true', {expires: 1});
+Cookies.set('MoozoMontownia', 'true', {expires: 2});
 
 const myCookie = Cookies.get('MoozoMontownia');
 
