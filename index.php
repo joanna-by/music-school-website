@@ -14,7 +14,9 @@
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
-            print '<script type='text/javascript'>alert('$Twoja wiadomość została wysłana');</script>';
+            include "komunikat.html";
+	    header("Refresh:3; URL=index.html");
+        // header('Location: /index.html');
         } else { 
             print '<p>Coś poszło nie tak, spróbuj jeszcze raz!</p>'; 
         }

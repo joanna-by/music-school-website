@@ -1,0 +1,41 @@
+.background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: cadetblue;
+    opacity:.70;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+    z-index:1001;       
+    width: 100%;
+    height: 100%;
+}
+     
+.message {        
+    position: absolute;
+    font-size: 2rem;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    border: 4px solid rgb(53, 51, 50);
+    box-shadow: 1px 1px 33px #000000;
+    z-index:1002;
+    overflow: auto;
+    }
+     
+.text {
+    position: relative;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+    text-align: center;
+    }
+
+.img {
+    height: 5rem;
+    margin: 0 auto;
+    padding: 1rem
+}
