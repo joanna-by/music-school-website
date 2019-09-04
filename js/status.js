@@ -8,7 +8,7 @@ openButton.addEventListener('click', openStatusWindow);
 function openStatusWindow() {
     
     if (window.matchMedia('(max-width: 1439px)').matches) {
-        window.open('status.html', '', strWindowFeaturesForSmallerResolution);
+        window.open('/status.html', '', strWindowFeaturesForSmallerResolution);
     } else {
         window.open('/status.html', '', strWindowFeatures);
     }

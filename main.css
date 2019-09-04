@@ -646,12 +646,12 @@ p.card-text {
   padding-top: 0.7rem
 }
 
-#openStatus {
+#openStatus, #openStatus2 {
   border: 1px dotted rgb(73, 69, 69);
   cursor: pointer
 }
 
-#openStatus:hover {
+#openStatus:hover, #openStatus2:hover {
   background-color: white;
   border: 3px solid rgb(73, 69, 69);
   padding: 2px
