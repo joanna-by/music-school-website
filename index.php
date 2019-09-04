@@ -8,9 +8,8 @@
     $from = 'From: MoozoMontownia'; 
     $to = 'kontakt@moozomontownia.pl'; 
     $subject = 'Zapisy na zajecia';
-    $zajecia_value = $_POST['zajecia'];
-
-    $body = "From: $name\n Phone: $phone\n E-Mail: $email\n Age: $age\n Message:\n $message $zajecia_value\n";
+    
+    $body = "Nadawca: $name\n Telefon: $phone\n E-Mail: $email\n Wiek: $age\n Wiadomosc: $message\n Wybrane zajecia:" . implode(',', $_POST['zajecia']);
 
     if ($_POST['submit']) {
         if (mail ($to, $subject, $body, $from)) { 
