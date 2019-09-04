@@ -112,7 +112,7 @@ html, body {
   height: 100vh;
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
   .carousel-item__1 {
     font-size: 7rem;
     padding: 23vh 10% 0 10%;
@@ -125,7 +125,7 @@ html, body {
   }
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1500px) {
   .carousel-item__1 {
     font-size: 6.5rem;
     padding: 17vh 10% 0 10%;
