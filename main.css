@@ -112,6 +112,19 @@ html, body {
   height: 100vh;
 }
 
+@media (min-width: 1700px) {
+  .carousel-item__1 {
+    font-size: 7rem;
+    padding: 23vh 10% 0 10%;
+  }
+
+  .carousel-item__2,
+  .carousel-item__3 {
+    font-size: 4rem;
+    padding: 23vh 10% 0 10%;
+  }
+}
+
 @media (max-width: 1700px) {
   .carousel-item__1 {
     font-size: 6.5rem;
