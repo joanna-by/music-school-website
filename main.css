@@ -347,60 +347,6 @@ p.card-text {
   margin-bottom: 0!important
 }
 
-.classes-list {
-  list-style: none
-}
-
-.first-li {
-  margin-left: 55%;
-  margin-bottom: 0
-}
-
-.first-li:before {
-  content: "🎶";
-  margin-right: 5px
-}
-
-.second-li {
-  margin-left: -10%;
-}
-
-.second-li:before{
-  content: "🎶";
-  margin-right: 5px
-}
-
-.third-li {
-  margin-left: 30%;
-}
-
-.third-li:before {
-  content: "🎶";
-  margin-right: 5px
-}
-
-.fourth-li {
-  margin-left: 70%;
-}
-
-.fourth-li:before {
-  content: "🎶";
-  margin-right: 5px
-}
-
-.fifth-li {
-  margin-left: 10%;
-}
-
-.fifth-li:before {
-  content: "🎶";
-  margin-right: 5px
-}
-
-/* .social-media-links {
-  padding-top: 2rem
-} */
-
 .fab {
   margin-left: 1rem;
 }
@@ -449,29 +395,6 @@ p.card-text {
 
   .fab {
     margin-left: .7rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .first-li {
-    margin-left: 40%;
-    margin-bottom: 0
-  }
-
-  .second-li {
-    margin-left: -20%;
-  }
- 
-  .third-li {
-    margin-left: 20%;
-  }
-  
-  .fourth-li {
-    margin-left: 60%;
-  }
-  
-  .fifth-li {
-    margin-left: -10%;
   }
 }
 
