@@ -556,6 +556,10 @@ p.card-text {
   background-color: rgb(240, 236, 236);
 }
 
+.custom-control-label {
+  font-size: 1.2rem
+}
+
 .form-classes {
   padding: 0 0 1rem
 }
