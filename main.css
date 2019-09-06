@@ -419,6 +419,12 @@ p.card-text {
   }
 }
 
+@media (max-width: 480px) {
+  .card-bottom-text {
+    font-size: 1.5rem
+  }
+}
+
 @media (max-width: 420px) {
   #about {
     padding: 2rem 0
@@ -513,7 +519,11 @@ p.card-text {
   margin: 1rem
 }
 
-@media (max-width: 420px) {
+@media (max-width: 454px) {
+  .section-heading {
+    font-size: 2.7rem;
+  }
+
   #team {
     padding: 1rem 0
   }
@@ -580,13 +590,13 @@ p.card-text {
   color: rgb(118, 194, 197) !important
 }
 
-@media (max-width: 420px) {
+@media (max-width: 454px) {
   #contact {
     padding: 1rem 0
   }
 
   .card-title {
-    font-size: 3rem;
+    font-size: 2.7rem;
     margin: 0;
     padding: 1rem
   }
