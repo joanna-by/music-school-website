@@ -325,10 +325,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin-right: 10px;
 }
 
+@media (max-width: 992px) {
+  .timetable-sheet {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+@media (max-width: 580px) {
+  .timetable-sheet {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
 @media (max-width: 420px) {
   #services {
     padding: 2rem 0
   }
+  .timetable-sheet {
+    padding: 1rem;
+    font-size: 1rem;
+}
 }
 
 /* about section */
