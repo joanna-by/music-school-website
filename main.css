@@ -200,6 +200,25 @@ html, body {
 
 }
 
+.timetable {
+  margin: 4rem 0
+}
+
+.timetable-sheet {
+ border: 2px dotted cadetblue;
+ padding: 2rem;
+ font-family: "Aleo", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+ "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 3rem;
+  color: rgb(80, 79, 79);
+}
+
+.timetable-sheet:hover {
+  background-color:rgba(95, 158, 160, 0.322);
+  color: black
+}
+
 .section-subheading {
   margin: 2rem 0 3rem;
   color: rgb(80, 79, 79);
