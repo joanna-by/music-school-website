@@ -329,22 +329,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   .timetable-sheet {
     padding: 1rem;
     font-size: 2rem;
+  }
 }
 
 @media (max-width: 580px) {
   .timetable-sheet {
     padding: 1rem;
     font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 420px) {
   #services {
     padding: 2rem 0
   }
+
   .timetable-sheet {
     padding: 1rem;
     font-size: 1rem;
-}
+  }
 }
 
 /* about section */
@@ -451,6 +454,7 @@ p.card-text {
 .team-img {
   opacity: 0.9;
 }
+
 .team-img:hover {
   opacity: 1;
   transform: scale(1.05, 1.07);
