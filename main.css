@@ -200,7 +200,7 @@ html, body {
 
 }
 
-.timetable {
+/* .timetable {
   margin: 4rem 0
 }
 
@@ -217,7 +217,7 @@ html, body {
 .timetable-sheet:hover {
   background-color:rgba(95, 158, 160, 0.322);
   color: black
-}
+} */
 
 .section-subheading {
   margin: 2rem 0 3rem;
